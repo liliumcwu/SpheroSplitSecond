@@ -57,7 +57,7 @@ We based our code on SpheroTeam's notebook #6, which covered camera integration 
 ## Authors
 
 * **Lily Wu**
-* **Izzy Salinas-Arreola** 
+* **Isabel Salinas-Arreola** 
 
 ## Context
 Developed at Yale University's Scazlab for CPSC 473 Intelligent Robotics Laboratory in Fall 2018, using lab facilities and equipment. We tested our application with the Sphero 2.0 model, running firmware version 3.90+.
