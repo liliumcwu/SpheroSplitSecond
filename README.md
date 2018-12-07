@@ -19,7 +19,7 @@ In SpheroNAV folder → tracker → trackerbase.py
   * ```self.image_size = (int(self.cam.get(cv2.CAP_PROP_FRAME_WIDTH)), int(self.cam.get(cv2.CAP_PROP_FRAME_HEIGHT)))```
 * Add ```__,``` to beginning of line 71 so it reads
   * ```__, countours, hierarchy = cv2.findCountours(img, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)```
-In SpheroTEAM, replace their requirements.txt with ours
+* In SpheroTEAM, replace their requirements.txt with ours
 * Our version has removed:
   * nb-anacondacloud
   * nb-conda
