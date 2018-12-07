@@ -1,0 +1,146 @@
+[
+	{
+	    "direction": "right",
+	    "behavior": "solid_light"
+	},
+	{ 
+	    "direction": "fwd",
+	    "behavior": "solid_light"
+	},
+	{
+	    "direction": "fwd", 
+	    "behavior": "slow"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "blink"
+	},
+	{
+		"direction": "fwd", 
+	    "behavior": "fast"
+	},
+	{
+		"direction": "fwd", 
+	    "behavior": "blink"
+	},
+	{
+		"direction": "fwd", 
+	    "behavior": "blink"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "slow"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "fast"
+	},
+	{
+		"direction": "fwd", 
+	    "behavior": "fast"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "solid_light"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "solid_light"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "slow"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "solid_light"
+	},
+	{
+		"direction": "fwd", 
+	    "behavior": "blink"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "fast"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "slow"
+	},
+	{
+		"direction": "fwd", 
+	    "behavior": "solid_light"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "blink"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "fast"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "solid_light"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "blink"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "fast"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "blink"
+	},
+	{
+		"direction": "fwd", 
+	    "behavior": "slow"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "solid_light"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "blink"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "fast"
+	},
+	{
+		"direction": "fwd", 
+	    "behavior": "fast"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "slow"
+	},
+	{
+		"direction": "fwd", 
+	    "behavior": "blink"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "fast"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "slow"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "slow"
+	},
+	{
+		"direction": "right", 
+	    "behavior": "blink"
+	},
+	{
+		"direction": "fwd", 
+	    "behavior": "slow"
+	}
+]
