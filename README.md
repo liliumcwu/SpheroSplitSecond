@@ -10,9 +10,41 @@ This project was developed and run on a Windows 8 computer. Note that SpheroNav 
 
 No additional dependencies beyond those specified in SpheroTeam's setup.md are necessary.
 
-### Installing
+### Setup
 
-See above.
+In SpheroNAV folder → tracker → trackerbase.py 
+* If using camera connected to laptop via USB port, for lines 37 & 103
+  * Change ```cameraID = -1``` to ```cameraID = 1```
+* Change line 45
+  * ```self.image_size = (int(self.cam.get(cv2.CAP_PROP_FRAME_WIDTH)), int(self.cam.get(cv2.CAP_PROP_FRAME_HEIGHT)))```
+* Add ```__,``` to beginning of line 71 so it reads
+  * ```__, countours, hierarchy = cv2.findCountours(img, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)```
+In SpheroTEAM, replace their requirements.txt with ours
+* Our version has removed:
+  * nb-anacondacloud
+  * nb-conda
+  * nb-conda-kernels
+  * nbpresent 
+  * pywin32
+  * tables 
+* You will most likely need to install (if conda install does not work, use pip install and vice versa):
+  * conda install anaconda-clean
+  * conda install anaconda-client
+  * conda install anaconda-navigator
+  * conda install colour
+  * pip install comtypes
+  * conda install conda-build
+  * pip install menuinst or conda install menuinst 
+  * pip install open-cv python
+  * conda install ruamel-yaml
+  * pip install openpyxl
+  * pip install path.py
+* If you are running windows 8: 
+  * pybluez might not be able to find your Windows SDK directory
+  * Download Windows SDK here (do not download C++ first): https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk  
+  * In the pybluez setup.py file inside the function ```find_MS_SDK()``` line 39
+    * In lines 53, 56, and 59 change to ```candidate_paths```
+
 
 ## Deployment
 
