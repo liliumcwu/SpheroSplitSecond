@@ -8,7 +8,7 @@ This project was developed and run on a Windows 8 computer. Note that SpheroNav 
 
 ### Prerequisites
 
-No additional dependencies beyond those specified in SpheroTeam's setup.md are necessary.
+No additional dependencies beyond those specified in SpheroTeam's setup.md are necessary. Note that you don't specifically need version 2.4 of Open CV.
 
 ### Setup
 
