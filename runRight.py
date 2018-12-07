@@ -1,4 +1,4 @@
-# Identical to runRight but with different sleep offsets 
+# Identical to runLeft but with different sleep offsets 
 # (the right sphero is the first to turn blue and reset)
 
 from multiprocessing import Process
